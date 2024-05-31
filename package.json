@@ -1,0 +1,20 @@
+{
+  "name": "message-l2",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@matterlabs/zksync-contracts": "^0.6.1",
+    "dotenv": "^16.4.5"
+  },
+  "dependencies": {
+    "@types/node": "^20.12.12",
+    "ethers": "^6.12.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5",
+    "zksync-ethers": "^6.7.1"
+  },
+  "scripts": {
+    "send": "ts-node file.ts"
+  }
+}
